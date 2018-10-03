@@ -1,3 +1,15 @@
+Unbox or Hard rebooot
+hold f2 or f12
+restore to factory 14.4 ubuntu
+lang, wifi, location, english
+username (stick1) password (chars written on back)
+add terminal and settings to panel
+turn on auto login in user settings if you didn't in setup
+sudo usermod -aG sudo stick1
+plug in usb stick
+cd /media/stick1/*someusbstickname*
+sudo apt install git -y
+
 
 A simple set of scripts for provisioning and running Geth:
 ```
